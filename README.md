@@ -1,21 +1,21 @@
 # SOEN_341
 SOEN 341 — Event Management & Ticketing Web App (Team Project)
 
-Bouchera Hazzab (40282895) @bouchera2,
+Bouchera Hazzab @bouchera2,
 
-Nkrumah Leugoue Nougoue (40258711) @LNN10,
+Nkrumah Leugoue Nougoue @LNN10,
 
-Elizabeth Tremblay (40117481) @liztremblay,
+Elizabeth Tremblay @liztremblay,
 
-Mahdi Djellab (40254945) @rabzouuuz,
+Mahdi Djellab @rabzouuuz,
 
-Elias Nasrallah (40233118) @Eliasn20,
+Elias Nasrallah @Eliasn20,
 
-Georgy Khoder (40248521) @Georgii77,
+Georgy Khoder @Georgii77,
 
-Mohammed Mrani Alaoui (40279836) @momrania,
+Mohammed Mrani Alaoui @momrania,
 
-M-Amar Kseibi (40276594) @3Ammar3
+M-Amar Kseibi @3Ammar3
 
 ## <ins>Language and techniques </ins> 
 
@@ -27,7 +27,7 @@ Framework for the backend: React
 
 Frontend: TypeScript, JavaScript, CSS, HTML, Axios/ fetch API, 
 
-Framework for the frontend: React, Bootstrap
+Framework for the frontend: Bootstrap
 
 # Project Description
 You are implementing a Campus Events & Ticketing Web Application designed to help students discover, organize, and attend events on campus. The system enables students to browse events, save them, claim free or paid tickets, and check in using QR codes. Organizers can create and manage events, track attendance, and access analytics through dashboards, while administrators moderate content and oversee organizations. The application streamlines event management, improves student engagement, and provides valuable insights for both organizers and campus administration.
@@ -91,12 +91,12 @@ Management
 ## My Contributions
 
 - Managed GitHub issues and sprint workflow
-- Worte user stories + acceptance criteria
+- Wrote user stories + acceptance criteria
 - Documented feature behavior and edge cases
 - Built organizer dashboard UI components (React)
 - Fixed bugs and improved UI/UX consistency
 - Implemented Export Attendee List to CSV (Issue #14)
-- Added CVS Export Trigger in Frontend (#69)
+- Added CSV Export Trigger in Frontend (#69)
 - Debugged and implemented user role assignment and user ID handling (Fix for Issue #111)
 - Participated in implementing claim ticket flow (Issue #8)
   
@@ -109,5 +109,5 @@ Frontend
 Backend
 - cd backend 
 - npm install
-- Add Firebase Admin SDK private key (for local deployement) to seviceAccountKey.json
+- Add Firebase Admin SDK private key (for local deployment) to seviceAccountKey.json
 - npm run dev (runs on https://localhost:3002)
