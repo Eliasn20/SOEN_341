@@ -1,5 +1,5 @@
 # SOEN_341
-SOEN 341 project FALL 2025
+SOEN 341 — Event Management & Ticketing Web App (Team Project)
 
 Bouchera Hazzab (40282895) @bouchera2,
 
@@ -19,13 +19,13 @@ M-Amar Kseibi (40276594) @3Ammar3
 
 ## <ins>Language and techniques </ins> 
 
-Backend: Java
+Backend: Node.js, Express.js, Typescript, Firebase Admin SDK, RESTful API architecture
 
-Database: FireBase
+Database: FireBase Firestore, Firebase authentication, Firebase Cloud storage
 
-Framework for the backend: Springboot
+Framework for the backend: React
 
-Frontend: JavaScript, CSS, HTML
+Frontend: TypeScript, JavaScript, CSS, HTML, Axios/ fetch API, 
 
 Framework for the frontend: React, Bootstrap
 
@@ -87,3 +87,27 @@ Management
 ### AI Chatbot
 
  Users will have access to an AI chatbot which will give information about the events and can recommend events based on the users database. The AI will save users information to personalize the answers to the user. 
+
+## My Contributions
+
+- Managed GitHub issues and sprint workflow
+- Worte user stories + acceptance criteria
+- Documented feature behavior and edge cases
+- Built organizer dashboard UI components (React)
+- Fixed bugs and improved UI/UX consistency
+- Implemented Export Attendee List to CSV (Issue #14)
+- Added CVS Export Trigger in Frontend (#69)
+- Debugged and implemented user role assignment and user ID handling (Fix for Issue #111)
+- Participated in implementing claim ticket flow (Issue #8)
+  
+
+## How to Run
+Frontend
+- cd frontend 
+- npm install 
+- npm start (runs on https://localhost:3000)
+Backend
+- cd backend 
+- npm install
+- Add Firebase Admin SDK private key (for local deployement) to seviceAccountKey.json
+- npm run dev (runs on https://localhost:3002)
